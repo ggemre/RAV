@@ -1,5 +1,0 @@
-import stdlib/sysio.rav
-
-fn main() {
-	print.call(1);
-}
