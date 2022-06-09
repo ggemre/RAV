@@ -1,0 +1,13 @@
+import stdlib/sysio.rav
+
+fn main() {
+    int a = 0;
+    int b = 1;
+
+    while (a < 200) {
+        print.call(a);
+        int temp = a;
+        a = a + b;
+        b = temp;
+    }
+}

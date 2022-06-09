@@ -1,0 +1,23 @@
+import stdlib/sysio.rav
+
+fn main() {
+    int[] polyA = [5, 6, 10]
+    int[] polyB = [2, 3, 13]
+    
+    string error = "NOT A TRIANGLE";
+    string success = "VALID TRIANGLE";
+
+    print.call(1);
+    if (polyA.2 > polyA.0 + polyA.1) {
+        print.call(error);
+    } else {
+        print.call(success);
+    }
+
+    print.call(2);
+    if (polyB.2 > polyB.0 + polyB.1) {
+        print.call(error);
+    } else {
+        print.call(success);
+    }
+}
