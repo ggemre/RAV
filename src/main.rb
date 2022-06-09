@@ -4,7 +4,7 @@ require "./build/parser"
 require "./build/vm"
 
 # linker
-rawCode = Scanner.ReadFile "main.rav"
+rawCode = Scanner.ReadFile ARGV[0]
 linkedCode = Scanner.Link rawCode
 
 #Error.Test linkedCode
