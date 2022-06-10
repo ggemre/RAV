@@ -19,4 +19,4 @@ fn main() {
 
 The RAV interpreter is written in Ruby. Learn about language specifications in `docs/`.
 
-2022 | made with ❤️ by ggemre
+2020 | made with ❤️ by ggemre
